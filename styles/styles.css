@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    font-size: 16px;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+main {
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background-color:  white;
+    border-radius: 16px;
+    z-index: 1;
+    box-shadow: 0 16px 16px hsla(229, 23%, 23%, 0.2);
+}
+
+.top-left {
+    position: absolute;
+    width: 978px;
+    height: 978px;
+    background-image: url(/images/bg-pattern-top.svg);
+    top: -489px;
+    left: -489px;
+    z-index: 0;
+}
+
+.bottom-right {
+    position: absolute;
+    width: 489px;
+    height: 489px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(/images/bg-pattern-bottom.svg);
+    overflow: hidden;
+    z-index: 0;
+}
+
+.card-header-background {
+    border-radius: 16px 16px 0 0;
+}
+
+.card-main{
+    text-align: center;
+}
+
+.profile {
+    border: solid 3px white;
+    border-radius: 100%;
+    margin-top: -48px;
+    margin-bottom: 16px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 36px;
+    margin-top: 36px;
+    border-top: solid 1px hsl(0, 0%, 82%);
+}
+
+
+h1 {
+    font-size: 1.3rem;
+    color: hsl(229, 23%, 23%);
+    letter-spacing: 0.1rem;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: hsl(229, 23%, 23%);
+}
+
+p {
+    color: hsl(0, 0%, 62%);
+    letter-spacing: 0.1rem;
+}
+
+p.legend{
+    color: hsl(0, 0%, 62%);
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.itens {
+    text-align: center;
+}
+
+h1 .light {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: hsl(229, 23%, 23%);
+}
